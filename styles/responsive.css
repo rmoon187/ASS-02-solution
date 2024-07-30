@@ -1,0 +1,109 @@
+@media screen and (max-width:576px) {
+
+    /* responsive header */
+    .hero {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+        padding: 2.5rem;
+        margin-bottom: 48px;
+
+    }
+
+    .content h1,
+    .content span {
+        font-size: 36px;
+    }
+
+    .navbar {
+        margin: 50px 20px;
+        width: 93%;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .hamburger span {
+        display: block;
+        width: 35px;
+        height: 3px;
+        margin: 5px;
+        background-color: #fff;
+    }
+
+    .butt {
+        display: flex;
+    }
+
+    .butt button {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .hero-image{
+       margin-top: 3rem; 
+    }
+
+    .card1 {
+        
+        width: 145.91px;
+        height: 74.09px;
+        padding: 1rem;
+        
+    }
+
+    .card1 h3{
+        font-size: 30px;
+    }
+    .card1 p{
+        font-size: 10px;
+    }
+
+    .card2 {
+
+        width: 155.74px;
+        height: 72.58px;
+        left: -15px;
+        top: -160px;
+        padding: 1rem;
+    }
+    .card2 h3{
+        font-size: 18px;
+    }
+    .card2 p{
+        font-size: 12px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+
+    
+    .circle::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 14px solid white;
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+
+    
+
+    
+}
