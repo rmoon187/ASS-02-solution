@@ -103,7 +103,30 @@
         transform: translate(-50%, -50%) rotate(90deg);
     }
 
-    
+    /* habits sec */
+
+    .habits{
+        padding-top: 0;
+        max-width: 100%;  
+    }
+
+    .habits-text h3{
+        font-size: 2rem;   
+    }
+
+    .habits-text p{
+        width: 80%;
+        line-height: 24px;
+    }
+
+    .habits-container{
+        grid-template-columns: 1fr;
+    }
+
+    .habit-card p{
+        width: 50%;
+        margin: 0 auto;
+    }
 
     
 }
