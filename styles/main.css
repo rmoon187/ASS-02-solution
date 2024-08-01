@@ -63,7 +63,7 @@ body {
     align-items: center;
     width: 80%;
     margin-bottom: 6rem;
-    
+
 }
 
 .logo {
@@ -102,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+
 }
 
 .content {
@@ -134,9 +134,10 @@ body {
 }
 
 
-.card{
+.card {
     position: relative;
 }
+
 .card1 {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -154,7 +155,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 900;
-    
+
 }
 
 .card1 p {
@@ -162,7 +163,7 @@ body {
     font-size: 13px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
-    
+
 
 }
 
@@ -182,32 +183,82 @@ body {
     justify-content: center;
 }
 
-.circle{
+.circle {
     width: 40px;
     height: 40px;
-    background-color:  rgb(230, 83, 60);;
+    background-color: rgb(230, 83, 60);
+    ;
     border-radius: 50%;
     margin-right: 10px;
 }
-.card2 h3{
+
+.card2 h3 {
     color: rgb(250, 250, 249);
     font-size: 24px;
     font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0.3px;
 }
 
-.card2 p{
+.card2 p {
     color: rgba(239, 237, 232, 0.65);
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
 }
 
-/* main sec */
+/* main common*/
+
+main {
+    background-color: rgba(0, 0, 0, 1);
+    height: 500rem;
+}
+
+main p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.main-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.9rem;
+}
+
+
+/* habits sec */
+
+.habits {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+    padding-top: 6.2rem;
+}
+
+.habits-text {
+    margin-bottom: 3.6rem;
+}
 
 
 
+.habits-text p {
+    width: 60%;
+    margin: 0 auto;
+}
 
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.5rem;
+}
 
-    
+.habit-card img {
+    border-radius: 50%;
+    margin-bottom: 1.9rem;
+}
+
+.habit-card h5 {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
