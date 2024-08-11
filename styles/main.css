@@ -14,9 +14,10 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Inter", sans-serif;
 
+body{
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "Inter", sans-serif; 
 }
 
 .btn-primary {
@@ -29,6 +30,8 @@ body {
     border: none;
     margin-right: 1rem;
     cursor: pointer;
+    width: 14rem;
+    height: 3,3rem;
 }
 
 .btn-secondary {
@@ -41,6 +44,8 @@ body {
     font-weight: 600;
     background: transparent;
     cursor: pointer;
+    width: 14rem;
+    height: 3,3rem;
 }
 
 
@@ -211,13 +216,21 @@ main {
     height: 500rem;
 }
 
+main  section {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
+    margin-top: 6.2rem;
+}
+
+
 main p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
 }
 
-.main-title{
+.main-title {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
@@ -225,20 +238,13 @@ main p {
 }
 
 
-/* habits sec */
 
-.habits {
-    margin: 0 auto;
-    text-align: center;
-    max-width: 70%;
-    padding-top: 6.2rem;
-}
+
+/* habits sec */
 
 .habits-text {
     margin-bottom: 3.6rem;
 }
-
-
 
 .habits-text p {
     width: 60%;
@@ -262,3 +268,40 @@ main p {
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
+
+/* run sec */
+
+.run {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 1.5rem;
+    
+}
+
+.run-text{
+    text-align: left;
+    width: 45%;
+    margin-left: 2rem;
+}
+.run-text p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.run-image {
+    width: 35%;
+    height: 300px; 
+    border-radius: 18px;
+    background-image: url('../images/run.jpg');
+    background-size: 340%; 
+    background-position: 70% 30%; 
+    background-repeat: no-repeat;
+    /* overflow: hidden;  */
+}
+
+
+
+

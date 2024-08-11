@@ -103,7 +103,7 @@
         transform: translate(-50%, -50%) rotate(90deg);
     }
 
-    /* habits sec */
+    /* habits sec res */
 
     .habits{
         padding-top: 0;
@@ -128,5 +128,27 @@
         margin: 0 auto;
     }
 
-    
+    /* run sec res */
+    .run{
+        flex-direction: column;
+        max-width: 90%;
+        gap: 2rem;
+    }
+    .run-text{
+        width: 90%;
+       margin-left: 0;
+    }
+    .run-text h3{
+        font-size: 2rem;
+    }
+    .run-text button{
+        width: 100%;
+    }
+    .run-image{
+        width: 90%;
+        height: 170px;
+        background-size: 150%;
+        margin-bottom: 1.5rem;
+    }
+
 }
