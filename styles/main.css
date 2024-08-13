@@ -306,20 +306,19 @@ footer p {
 }
 
 /* BMI sec */
-/* .bmi{
+.bmi {
     max-width: 100%;
-   
+
 }
-.bmi h5{
+
+.bmi h5 {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 900;
     line-height: 120%;
 }
-.bmi-text{
-    
-}
-.bmi-container{
+
+.bmi-container {
     background: rgb(34, 34, 34);
     margin-top: 5.5rem;
     height: 487px;
@@ -327,7 +326,8 @@ footer p {
     align-items: center;
     justify-content: space-evenly;
 }
-.chart{
+
+.chart {
     margin-bottom: 5rem;
 }
 
@@ -337,42 +337,79 @@ footer p {
     letter-spacing: 1px;
     margin-top: 3.25rem;
     text-align: left;
-   
-  }
-   td,th{
+
+}
+
+td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0.8rem;
-  }
-.chart thead{
+}
+
+.chart thead {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
 
 }
-.calculate{
+
+/* calculate class */
+
+.calculate {
     width: 45%;
+    margin-top: -10px;
 }
-.calculate-text{
+
+.calculate-text {
     text-align: left;
     margin-bottom: 34px;
 }
-.calculate-text p{
+
+.calculate-text p {
     margin-top: 14px;
     line-height: 24px;
 }
-input,select{
+
+input,
+select {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 40px 12px 20px;
     border: none;
-   
+    height: 48px;
+}
+input::placeholder,select{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.calculate button{
-    margin-top: 34px;
+select {
+   
+    appearance: none;          
+    background-image: url('../images/down-arrow-56.svg');  
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px; 
     
-} */
+    
+}
+
+
+.form-container{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+}
+select#factor{
+    grid-column: 1/3;
+}
+
+.calculate button {
+    margin-top: 34px;
+    margin-right: 500px;
+}
 
 /* team sec */
 
@@ -478,9 +515,10 @@ footer {
     font-style: italic;
 }
 
-.footer-text{
+.footer-text {
     margin-top: -50px;
 }
+
 .footer-text p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -517,6 +555,7 @@ footer {
     gap: 100px;
     width: 100%;
 }
+
 .finish {
     margin: 100px auto;
 }
@@ -526,6 +565,7 @@ footer {
     max-width: 70%;
     margin: 0 auto;
 }
+
 .finish p {
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.5);
