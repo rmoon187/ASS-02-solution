@@ -191,4 +191,39 @@
     .img6{
         order: 4;
     }
+    /* footer sec */
+
+    .footer-container,.column-container{
+        flex-direction: column;
+    }
+    footer{
+        height: 100%;
+        padding: 1rem;
+    }
+    .footer-text{
+        margin-top: 2rem;
+    }
+    .footer-container {
+         max-width: 100%;
+       
+    }
+    .footer-text{
+        margin-bottom: 30px;
+    }
+    .footer-text p{
+        width: 90%;
+    }
+    .column-container{
+        gap: 30px;
+    }
+    .finish{
+        margin: 60px auto;
+    }
+    .finish hr {
+        max-width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .finish p{
+        text-align: left;
+    }
 }
