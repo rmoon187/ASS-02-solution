@@ -224,7 +224,7 @@ main  section {
 }
 
 
-main p {
+main p ,td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
@@ -302,6 +302,136 @@ main p {
     /* overflow: hidden;  */
 }
 
+/* BMI sec */
+.bmi{
+    max-width: 100%;
+   
+}
+.bmi h5{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.bmi-text{
+    
+}
+.bmi-container{
+    background: rgb(34, 34, 34);
+    margin-top: 5.5rem;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chart{
+    margin-bottom: 5rem;
+}
 
+.chart table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    margin-top: 3.25rem;
+    text-align: left;
+   
+  }
+   td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.8rem;
+  }
+.chart thead{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
 
+}
+.calculate{
+    width: 45%;
+}
+.calculate-text{
+    text-align: left;
+    margin-bottom: 34px;
+}
+.calculate-text p{
+    margin-top: 14px;
+    line-height: 24px;
+}
+input,select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+   
+}
+
+.calculate button{
+    margin-top: 34px;
+    
+}
+
+/* team sec */
+
+.team-text{
+    width: 65%;
+    margin: 0 auto;
+}
+.team-container{
+    height: 604px;
+    margin-top: 58px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.team h5{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.team-card{
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.team-card-text{
+    text-align: left;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    letter-spacing: 2px;
+}
+.img1{
+    
+    background-image: url("../images/trainer1.png");
+    
+}
+.img2{
+    background-image: url("../images/trainer2.png");
+    
+}
+.img3{
+    background-image: url("../images/trainer3.png");
+    
+}
+.img4{
+    background-image: url("../images/trainer4.png");
+    
+}
+.img5{
+    background-image: url("../images/trainer5.png");
+    
+}
+.img6{
+    background-image: url("../images/trainer6.png");
+    
+}
 
