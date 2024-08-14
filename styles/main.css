@@ -55,7 +55,7 @@ body {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     height: 100%;
     padding-top: 3rem;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(34, 34, 34);
     background-blend-mode: overlay;
 
 
@@ -319,14 +319,24 @@ footer p {
     align-items: center;
     justify-content: space-evenly;
 }
-.bmi h3{
-    font-size: 32px;
-}
+
+
 .bmi h5 {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 900;
     line-height: 120%;
+}
+
+.bmi-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bmi-text p {
+    width: 65%;
+    line-height: 1.5;
 }
 
 .chart {
@@ -377,26 +387,29 @@ select {
     border: none;
     height: 3rem;
 }
-input::placeholder,select{
+
+input::placeholder,
+select {
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
 }
 
 select {
-    appearance: none;          
-    background-image: url('../images/down-arrow-56.svg');  
+    appearance: none;
+    background-image: url('../images/down-arrow-56.svg');
     background-repeat: no-repeat;
     background-position: right 10px center;
-    background-size: 30px;    
+    background-size: 30px;
 }
 
-.form-container{
+.form-container {
     display: grid;
     gap: 0.8rem;
     grid-template-columns: 1fr 1fr;
 }
-select#factor{
+
+select#factor {
     grid-column: 1/3;
 }
 

@@ -160,15 +160,20 @@
         padding: 2rem;
         margin-left: -70px;
     }
+    .bmi h3 {
+        font-size: 32px;
+    }
     .bmi h5{
         font-size: 16px;
         text-align: left;
     }
     .bmi-text{
         margin-top: -70px;
-        margin-left: 30px;
+        margin-left: 20px;
         text-align: left;
+        width: 100%;
     }
+    
     .chart table{
         margin-top:23px ;
     }
