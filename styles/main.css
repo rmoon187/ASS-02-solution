@@ -311,13 +311,6 @@ footer p {
 
 }
 
-.bmi h5 {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 120%;
-}
-
 .bmi-container {
     background: rgb(34, 34, 34);
     margin-top: 5.5rem;
@@ -325,6 +318,15 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+.bmi h3{
+    font-size: 32px;
+}
+.bmi h5 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
 }
 
 .chart {
@@ -337,7 +339,6 @@ footer p {
     letter-spacing: 1px;
     margin-top: 3.25rem;
     text-align: left;
-
 }
 
 td,
@@ -351,13 +352,10 @@ th {
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
-
 }
 
-/* calculate class */
-
 .calculate {
-    width: 45%;
+    max-width: 45%;
     margin-top: -10px;
 }
 
@@ -377,7 +375,7 @@ select {
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 40px 12px 20px;
     border: none;
-    height: 48px;
+    height: 3rem;
 }
 input::placeholder,select{
     color: rgba(255, 255, 255, 0.6);
@@ -386,20 +384,16 @@ input::placeholder,select{
 }
 
 select {
-   
     appearance: none;          
     background-image: url('../images/down-arrow-56.svg');  
     background-repeat: no-repeat;
     background-position: right 10px center;
-    background-size: 30px; 
-    
-    
+    background-size: 30px;    
 }
-
 
 .form-container{
     display: grid;
-    gap: 12px;
+    gap: 0.8rem;
     grid-template-columns: 1fr 1fr;
 }
 select#factor{
@@ -410,6 +404,8 @@ select#factor{
     margin-top: 34px;
     margin-right: 500px;
 }
+
+
 
 /* team sec */
 
